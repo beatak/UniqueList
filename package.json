@@ -1,8 +1,8 @@
 {
-  "author": "Takashi M (https://github.com/beatak/)",
+  "author": "Takashi Mizohata <beatak@gmail.com> (https://github.com/beatak/)",
   "name": "UniqueList",
   "description": "UniqueList creates an array that guarantess the uniqueness of each element",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/beatak/UniqueList",
   "repository": {
     "type": "git",
