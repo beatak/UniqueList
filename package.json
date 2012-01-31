@@ -1,0 +1,23 @@
+{
+  "author": "Takashi M (https://github.com/beatak/)",
+  "name": "UniqueList",
+  "description": "UniqueList creates an array that guarantess the uniqueness of each element",
+  "version": "0.0.1",
+  "homepage": "https://github.com/beatak/UniqueList",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/beatak/UniqueList.git"
+  },
+  "main": "lib/uniquelist.js",
+  "scripts": {
+    "test": "expresso"
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "expresso": ">=0.9.2"
+  },
+  "keywords": ["list"]
+}
