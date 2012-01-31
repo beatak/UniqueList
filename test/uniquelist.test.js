@@ -50,17 +50,18 @@ module.exports = {
     ul.push(1, '1');
     assert.equal(ul[0], 1);
   }
-  ,'UniqueList: push returns value' : function () { 
+  ,'UniqueList: push returns length' : function () { 
     var ul = new UniqueList();
-    assert.equal(1, ul.push(1, '1'));
+    assert.equal(1, ul.push('a'));
   }
   ,'UniqueList: push without key' : function () { 
     var ul = new UniqueList();
     ul.push(1);
     assert.equal(ul[0], 1);
   }
-  ,'UniqueList: push empty' : function () { 
+  ,'UniqueList: push empty will not change value' : function () { 
     var ul = new UniqueList();
+    ul.push('a');
     ul.push();
     var elem0 = ul[0];
     assert.equal(true, (elem0 === undefined));
